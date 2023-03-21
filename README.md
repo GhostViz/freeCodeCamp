@@ -1,4 +1,4 @@
-# codewars
-All the problems I've worked from codewars.com
+# freeCodeCamp
+freeCodeCamp courses and projects I've completed. 
 
-There are folders for solutions in different languages that I have solved the problems in. 
+Each Course is in it's own directory with subdirectories for lessons and projects. 

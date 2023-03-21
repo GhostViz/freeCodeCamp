@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Build a Survey Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">This form is a survey written for a FreeCodeCamp project</p>
+        <form id="survey-form">
+            <div id="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required />
+            </div>
+            <div id="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your Email" required />
+            </div>
+            <div id="form-group">
+            <label id="number-label" for="number">Number</label>
+            <input type="number" name="number" id="number" min="1" max="10" placeholder="Enter a number between 1 and 10" required />
+            </div>
+            <div id="form-group">
+            <label id="dropdown-label" for="dropdown">Click the box and use the dropdown?</label>
+            <select id="dropdown" name="dropdown" required>
+                <option disabled selected value>Select one of the options</option>
+                <option value="option-1">Option 1</option>
+                <option value="option-2">Option 2</option>
+                <option value="option-3">Option 3</option>
+            </select>
+            </div>
+            <div class="form-group">
+            <label id="like-radio-label" for="like-radio">Do you like radio buttons?</label>
+            <input name="like-radio" value="yes" type="radio" checked />Yes
+            <input name="like-radio" value="no" type="radio"/>No
+            </div>
+            <div class="form-group">
+            <p>Randomly click some boxes!</p>
+            <label >
+                <input name="random-box" value="red-box" type="checkbox"/>Red
+            </label>
+            <label>
+                <input name="random-box" value="blue-box" type="checkbox"/>Blue
+            </label>
+            <label>
+                <input name="random-box" value="green-box" type="checkbox"/>Green
+            </label>
+            </div>
+            
+            <div class="form-group">
+            <p>Write random words here</p>
+            <textarea id="random-words" name="random-words" placeholder="Hibbity Hoo Ha"></textarea>
+            </div>
+
+            <div class="form-group">
+            <button type="submit" id="submit"> Submit </button>
+            </div>
+        </form>
+    </body>
+</html>
